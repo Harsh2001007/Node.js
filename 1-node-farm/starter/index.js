@@ -39,7 +39,7 @@ const http = require("http");
 //////// server
 
 const server = http.createServer((req, res) => {
-  res.end("good bye from the server");
+  res.end("good bye from the server hosted");
 });
 
 server.listen(3000, "127.0.0.1", () => {
